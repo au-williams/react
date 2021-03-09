@@ -1,0 +1,130 @@
+html {
+  height: 100%;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  background: #ffffff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  min-height: 100%;
+  padding: 2.5em;
+}
+
+body,
+main {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+a,
+a:visited,
+main {
+  color: #111111;
+}
+
+main {
+  background: #EBEBEB;
+  border: 1px solid #111111;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 1.25em;
+  max-width: 35em;
+  overflow: auto;
+  padding: 1em;
+  text-align: center;
+}
+
+main section {
+  margin-bottom: 1.25em;
+}
+
+main article {
+  margin: 1em 0;
+}
+
+main article:first-child {
+  margin-top: 0;
+}
+
+button {
+  background: #111111;
+  border: none;
+  color: #ffffff;
+  font-size: 0.75em;
+  outline: none;
+  padding: .75em 1em;
+  width: 10em;
+}
+
+button span {
+  display: inline-block;
+  position: relative;
+  height: 100%;
+  top: -1.5px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button .bump-left {
+  right: 0;
+  -webkit-transition: right ease .25s;
+  transition: right ease .25s;
+}
+
+button .bump-right {
+  left: 0;
+  -webkit-transition: left ease .25s;
+  transition: left ease .25s;
+}
+
+button:hover .bump-left {
+  right: .25em;
+}
+
+button:hover .bump-right {
+  left: .25em;
+}
+
+.fade {
+  -webkit-animation: fade 0.25s;
+          animation: fade 0.25s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=App.css.map */
