@@ -1,41 +1,41 @@
 [
   {
-    "slideText": [
+    "sectionContent": [
       "Hey, my name is <a href='https://linkedin.com/in/auwilliams/'>Austin Williams</a>! 👋",
-      "I applied to be a part of the GoDaddy team because I love web development and want to experience the best practices that your organization has to offer.",
-      "I've built a small demo using the React library to show you my excitement for this opportunity, and that I'm a great fit for your development team and technology stack."
+      "I applied to become a part of your team because I love web development and want to experience the best practices that your organization has to offer.",
+      "I built a small demo with the React library to show you my excitement for this opportunity, and that I'm a great fit for your development team and technology stack."
     ],
-    "footerText": [
+    "footerContent": [
       "Get started"
     ]
   },
   {
-    "slideText": [
-      "This demo isn't meant to wow anyone, but to prove my competency with the React library. It's data driven — entirely fueled by a single JSON file — and rendered on screen using stateful components.",
-      "Single page applications are tons of fun to make, and I would love to work on them more with your team! I have experience writing and maintaining them from past employment, and I teach bootcamp students enrolled at the University of Washington on the basics of SPAs (as well as other core full-stack web development concepts).",
+    "sectionContent": [
+      "This demo isn't meant to wow anyone, but to prove my competency with the React library. It's data driven — entirely fueled by a single JSON file — and rendered on screen using stateful class components.",
+      "Single-page applications are fun to make! I have experience writing and maintaining SPAs from past employment, and I teach students enrolled at the University of Washington bootcamps on their basics (and other core full-stack web development concepts).",
       "Here's the source code for this demo: <a href='https://github.com/au-williams/react'>github.com/au-williams/react</a>."
     ],
-    "footerText": [
+    "footerContent": [
       "Continue",
       "Go back"
     ]
   },
   {
-    "slideText": [
-      "Software development is my passion and I love learning new things. That's always been the driving force behind my career. I taught myself computers at a young age by following my interests, and I’m confident in my skills regardless of the stack being used.",
-      "I spend my free time writing projects for fun — whether they are websites, programs, or games — and have a lifetime subscription to <a href='https://www.pluralsight.com/'>Pluralsight</a> that I use to stay compentent with the latest and greatest technologies.",
-      "My resume is always available to view at <a href='https://resume.austinwilliams.dev/'>resume.austinwilliams.dev</a>, and you can contact me by email at <a href='mailto:me@austinwilliams.dev'>me@austinwilliams.dev</a>. I would love to hear from you!"
+    "sectionContent": [
+      "Software development is my passion and I love learning new things. That's always been the driving force behind my career. I taught myself computers at a young age by following my interests and I’m confident in my skills regardless of the stack being used.",
+      "I spend my free time writing projects for fun — whether they are websites, programs, or games — and have a lifetime subscription to <a href='https://www.pluralsight.com/'>Pluralsight</a> that I use to stay competent with the latest and greatest technologies.",
+      "My resume is always available to view at <a href='https://resume.austinwilliams.dev/'>resume.austinwilliams.dev</a> and you can contact me by email at <a href='mailto:me@austinwilliams.dev'>me@austinwilliams.dev</a>. I would love to hear from you!"
     ],
-    "footerText": [
+    "footerContent": [
       "Continue",
       "Go back"
     ]
   },
   {
-    "slideText": [
-      "This concludes my short demo. Thank you so much for your time today and the opportunity to work at GoDaddy! 😄"
+    "sectionContent": [
+      "This concludes my short demo. Thank you so much for your time today and the opportunity to work with you! 😄"
     ],
-    "footerText": [
+    "footerContent": [
       "Restart",
       "Go back"
     ]
