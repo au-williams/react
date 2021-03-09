@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/au-williams/react/static/css/main.0a2afb6e.chunk.css",
+    "main.js": "/au-williams/react/static/js/main.a4e01746.chunk.js",
+    "main.js.map": "/au-williams/react/static/js/main.a4e01746.chunk.js.map",
+    "runtime-main.js": "/au-williams/react/static/js/runtime-main.e6ffbeb3.js",
+    "runtime-main.js.map": "/au-williams/react/static/js/runtime-main.e6ffbeb3.js.map",
+    "static/js/2.f91c7498.chunk.js": "/au-williams/react/static/js/2.f91c7498.chunk.js",
+    "static/js/2.f91c7498.chunk.js.map": "/au-williams/react/static/js/2.f91c7498.chunk.js.map",
+    "static/js/3.8c6b9e0d.chunk.js": "/au-williams/react/static/js/3.8c6b9e0d.chunk.js",
+    "static/js/3.8c6b9e0d.chunk.js.map": "/au-williams/react/static/js/3.8c6b9e0d.chunk.js.map",
+    "index.html": "/au-williams/react/index.html",
+    "static/css/main.0a2afb6e.chunk.css.map": "/au-williams/react/static/css/main.0a2afb6e.chunk.css.map",
+    "static/js/2.f91c7498.chunk.js.LICENSE.txt": "/au-williams/react/static/js/2.f91c7498.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e6ffbeb3.js",
+    "static/js/2.f91c7498.chunk.js",
+    "static/css/main.0a2afb6e.chunk.css",
+    "static/js/main.a4e01746.chunk.js"
+  ]
+}
