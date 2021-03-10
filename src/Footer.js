@@ -3,7 +3,7 @@ export function Footer({content, navigateBack, navigateNext}) {
   const backText = content[1];
 
   return (
-    <div>
+    <footer>
       {backText &&
         <button onClick={navigateBack}>
           <span className="bump-left">←</span> {backText}
@@ -17,6 +17,6 @@ export function Footer({content, navigateBack, navigateNext}) {
           {nextText} <span className="bump-right">→</span>
         </button>
       }
-    </div>
+    </footer>
   )
 }
