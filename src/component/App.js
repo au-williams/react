@@ -11,30 +11,31 @@ class App extends Component {
   };
 
   render() {
-    const {sectionContent, footerContent} = Content[this.state.index];
-    const isLastPage = this.state.index === Content.length - 1;
+    const {animate, index} = this.state;
+    const {sectionContent, footerContent} = Content[index];
+    const isLastPage = index === Content.length - 1;
 
     const navigateBack = () => {
       this.setState({
         animate: true,
-        index: this.state.index - 1
+        index: index - 1
       });
     }
 
     const navigateNext = () => {
       this.setState({
         animate: true,
-        index: isLastPage ? 0 : this.state.index + 1
+        index: isLastPage ? 0 : index + 1
       })
     };
 
     return (
       <main>
         <Section
-          animate={this.state.animate}
+          animate={animate}
           content={sectionContent}
           onAnimationEnd={() => {
-            this.setState({animate: false });
+            this.setState({animate: false});
           }}
         />
         <Footer

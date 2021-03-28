@@ -3,15 +3,14 @@ import parse from 'html-react-parser';
 
 export default class Section extends Component {
   render() {
-    const className = this.props.animate ? 'fade' : '';
+    const {animate, content, onAnimationEnd} = this.props;
+    const className = animate ? 'fade' : '';
 
     return (
       <section
           className={className}
-          onAnimationEnd={this.props.onAnimationEnd}>
-          {this.props.content.map(c =>
-              <p>{parse(c)}</p>
-          )}
+          onAnimationEnd={onAnimationEnd}>
+          {content.map(c => <p>{parse(c)}</p>)}
       </section>
     )
   }

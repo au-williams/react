@@ -2,13 +2,13 @@ import React, {Component} from 'react';
 
 export default class Footer extends Component {
   render() {
-    const nextText = this.props.content[0];
-    const backText = this.props.content[1];
+    const {content, navigateBack, navigateNext} = this.props;
+    const [nextText, backText] = content;
 
     return (
       <footer>
         {backText &&
-          <button onClick={this.props.navigateBack}>
+          <button onClick={navigateBack}>
             <span className='bump-left'>←</span> {backText}
           </button>
         }
@@ -16,7 +16,7 @@ export default class Footer extends Component {
           <span> </span>
         }
         {nextText &&
-          <button onClick={this.props.navigateNext}>
+          <button onClick={navigateNext}>
             {nextText} <span className='bump-right'>→</span>
           </button>
         }
