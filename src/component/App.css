@@ -56,11 +56,11 @@ main section {
   margin-bottom: 1.25em;
 }
 
-main article {
+main p {
   margin: 1em 0;
 }
 
-main article:first-child {
+main p:first-child {
   margin-top: 0;
 }
 
