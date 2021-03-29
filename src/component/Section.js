@@ -1,9 +1,9 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import parse from 'html-react-parser';
 
 export default class Section extends Component {
   render() {
-    const {animate, content, onAnimationEnd} = this.props;
+    const { animate, content, onAnimationEnd } = this.props;
     const className = animate ? 'fade' : '';
 
     return (

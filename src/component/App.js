@@ -2,7 +2,7 @@ import './App.css';
 import Content from './Content';
 import Footer  from './Footer';
 import Section from './Section';
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 
 class App extends Component {
   state = {
@@ -10,24 +10,25 @@ class App extends Component {
     index: 0
   };
 
+  navigateBack = () => {
+    this.setState({
+      animate: true,
+      index: this.state.index - 1
+    });
+  };
+
+  navigateNext = () => {
+    const isLastPage = this.state.index === Content.length - 1;
+
+    this.setState({
+      animate: true,
+      index: isLastPage ? 0 : this.state.index + 1
+    })
+  };
+
   render() {
-    const {animate, index} = this.state;
-    const {sectionContent, footerContent} = Content[index];
-    const isLastPage = index === Content.length - 1;
-
-    const navigateBack = () => {
-      this.setState({
-        animate: true,
-        index: index - 1
-      });
-    }
-
-    const navigateNext = () => {
-      this.setState({
-        animate: true,
-        index: isLastPage ? 0 : index + 1
-      })
-    };
+    const { animate, index } = this.state;
+    const { sectionContent, footerContent } = Content[index];
 
     return (
       <main>
@@ -40,12 +41,12 @@ class App extends Component {
         />
         <Footer
           content={footerContent}
-          navigateBack={navigateBack}
-          navigateNext={navigateNext}
+          navigateBack={this.navigateBack}
+          navigateNext={this.navigateNext}
         />
       </main>
     );
-  }
+  };
 }
 
 export default App;
